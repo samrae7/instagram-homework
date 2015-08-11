@@ -8,3 +8,45 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+  background-color: #5151BB;
+  height: 311px;
+}
+ 
+.img-container {
+  display: inline-block;
+  width:40%;
+  border: 1px solid red;
+}
+
+h1 {
+  background-image: url("../images/brand.png");
+ 
+  display:inline-block;
+  height: 75px;
+  width: 315px;
+}
+
+.img-container img {
+  margin-left: 180px;
+}
+
+main {
+  margin-top: -190px;
+}
+
+article {
+  display: inline-block;
+  width: 39%;
+  vertical-align: top;
+  border: 1px solid orange; 
+}
+
+.article-top {
+  height:167px;
+}
+
+.article-bottom {
+  background-image: url("../images/frame.png")
+}
