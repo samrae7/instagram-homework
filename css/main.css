@@ -7,6 +7,7 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  font-size: 18px;
 }
 
 header {
@@ -18,14 +19,6 @@ header {
   display: inline-block;
   width:40%;
   border: 1px solid red;
-}
-
-h1 {
-  background-image: url("../images/brand.png");
- 
-  display:inline-block;
-  height: 75px;
-  width: 315px;
 }
 
 .img-container img {
@@ -44,9 +37,35 @@ article {
 }
 
 .article-top {
-  height:167px;
+  height:105px;
+}
+
+.article-top img {
+  width:290px;
+}
+
+button {
+  width:81px;
+  width: 81px;
+  float: right;
+  margin-top: 22px;
+  height: 30px;
 }
 
 .article-bottom {
-  background-image: url("../images/frame.png")
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+}
+
+h1 {
+    margin: 25px;
+    margin-bottom: 0;
+    display: inline-block;
+    font-size: 1.3em;
+    color: navy;
+}
+
+.article-bottom p {
+  padding:0 20px;
+  font-size: 0.9em;
 }
