@@ -11,7 +11,9 @@ body {
 }
 
 header {
-  background-color: #5151BB;
+  /*background-color: #5151BB;*/
+  background-image: url("..images/bgtile.png");
+  background-repeat: repeat;
   height: 311px;
 }
  
@@ -33,23 +35,40 @@ article {
   display: inline-block;
   width: 39%;
   vertical-align: top;
-  border: 1px solid orange; 
+  border: 1px solid orange;
+  margin-left: 30px;
 }
 
 .article-top {
   height:105px;
+  margin-top: 19px;
 }
 
 .article-top img {
   width:290px;
 }
 
-button {
-  width:81px;
-  width: 81px;
+.login-button {
+  width:90px;
   float: right;
   margin-top: 22px;
   height: 30px;
+  background-color: navy;
+  color: white;
+  border: 1px blue;
+}
+
+.login-button img {
+  width:20px;
+  vertical-align: bottom;
+  margin:3px 0 8px 5px;
+
+}
+
+.login-button p {
+  display:inline-block;
+  margin: 3px 0px 5px 9px;
+  font-size: 0.8em;
 }
 
 .article-bottom {
@@ -57,7 +76,7 @@ button {
   background-repeat: no-repeat;
 }
 
-h1 {
+.article-bottom h1 {
     margin: 25px;
     margin-bottom: 0;
     display: inline-block;
@@ -68,4 +87,29 @@ h1 {
 .article-bottom p {
   padding:0 20px;
   font-size: 0.9em;
+}
+
+.article-bottom img {
+  margin-left: 17px;
+}
+
+nav {
+  margin-top: 58px;
+  margin-left: 283px;
+}
+
+nav ul li {
+  display:inline-block;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.copyright {
+  color: rgba(58, 50, 50, 0.49);
 }
