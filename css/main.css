@@ -11,16 +11,14 @@ body {
 }
 
 header {
-  /*background-color: #5151BB;*/
-  background-image: url("..images/bgtile.png");
-  background-repeat: repeat;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
   height: 311px;
 }
  
 .img-container {
   display: inline-block;
   width:40%;
-  border: 1px solid red;
 }
 
 .img-container img {
@@ -35,27 +33,31 @@ article {
   display: inline-block;
   width: 39%;
   vertical-align: top;
-  border: 1px solid orange;
   margin-left: 30px;
 }
 
 .article-top {
-  height:105px;
+  height:79px;
   margin-top: 19px;
 }
 
 .article-top img {
   width:290px;
+  margin-left: 3px;
 }
 
 .login-button {
   width:90px;
   float: right;
-  margin-top: 22px;
+  margin: 22px 3px 10px 0;
   height: 30px;
-  background-color: navy;
+ /* background-color: navy;*/
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
   color: white;
   border: 1px blue;
+  box-shadow: 1px 1px 3px #0C0000;
+  border-radius: 3px;
 }
 
 .login-button img {
@@ -69,6 +71,7 @@ article {
   display:inline-block;
   margin: 3px 0px 5px 9px;
   font-size: 0.8em;
+  font-weight: bold;
 }
 
 .article-bottom {
@@ -81,7 +84,7 @@ article {
     margin-bottom: 0;
     display: inline-block;
     font-size: 1.3em;
-    color: navy;
+    color: #01015C;
 }
 
 .article-bottom p {
